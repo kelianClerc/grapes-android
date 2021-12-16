@@ -1,4 +1,4 @@
-package com.spendesk.grapes.compose
+package com.spendesk.grapes.compose.tag
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border

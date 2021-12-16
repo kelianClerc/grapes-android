@@ -13,6 +13,9 @@ sealed class HomeTabItem : Parcelable {
     object Buttons : HomeTabItem()
 
     @Parcelize
+    object ButtonsCompose : HomeTabItem()
+
+    @Parcelize
     object Messages : HomeTabItem()
 
     @Parcelize
@@ -23,10 +26,16 @@ sealed class HomeTabItem : Parcelable {
     object Selectors : HomeTabItem()
 
     @Parcelize
+    object SelectorsCompose : HomeTabItem()
+
+    @Parcelize
     object Avatars : HomeTabItem()
 
     @Parcelize
     object Cards : HomeTabItem()
+
+    @Parcelize
+    object CardsCompose : HomeTabItem()
 
     @Parcelize
     object Lists : HomeTabItem()

@@ -15,8 +15,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.spendesk.grapes.R
-import com.spendesk.grapes.compose.SecondaryButton
+import com.spendesk.grapes.compose.R
+import com.spendesk.grapes.compose.button.SecondaryButton
 
 private val CardPadding = 32.dp
 private val TitleBodySpacing = 16.dp

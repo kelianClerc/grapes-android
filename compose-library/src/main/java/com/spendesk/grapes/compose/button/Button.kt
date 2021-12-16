@@ -1,4 +1,4 @@
-package com.spendesk.grapes.compose
+package com.spendesk.grapes.compose.button
 
 import android.content.res.Configuration
 import androidx.compose.foundation.layout.*
