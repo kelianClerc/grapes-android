@@ -4,6 +4,9 @@
     <string name="buttons" translatable="false">Buttons</string>
     <string name="cards" translatable="false">Cards</string>
     <string name="selectors" translatable="false">Selectors</string>
+    <string name="buttonsCompose" translatable="false">Buttons Compose</string>
+    <string name="cardsCompose" translatable="false">Cards Compose</string>
+    <string name="selectorsCompose" translatable="false">Selectors Compose</string>
     <string name="inputs" translatable="false">Inputs</string>
     <string name="lists" translatable="false">Lists</string>
     <string name="contents" translatable="false">Contents</string>

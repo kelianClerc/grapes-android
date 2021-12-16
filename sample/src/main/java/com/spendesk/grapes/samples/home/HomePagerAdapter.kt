@@ -29,6 +29,9 @@ class HomePagerAdapter(
             is HomeTabItem.Avatars,
             is HomeTabItem.Messages,
             is HomeTabItem.Modals -> throw IllegalStateException("Cannot resolve the item (name: ${item::class.java.simpleName}. This item is not yet resolved is not handled")
+            is HomeTabItem.ButtonsCompose -> ButtonsComposeFragment.newInstance()
+            is HomeTabItem.CardsCompose -> CardsComposeFragment.newInstance()
+            is HomeTabItem.SelectorsCompose -> SelectorComposeFragment.newInstance()
         }
 
     override fun getItemCount(): Int = itemList.size
