@@ -25,6 +25,7 @@ import com.spendesk.grapes.compose.button.PrimaryButton
 import com.spendesk.grapes.compose.button.SecondaryButton
 import com.spendesk.grapes.compose.button.WarningButton
 import com.spendesk.grapes.samples.R
+import com.spendesk.grapes.samples.home.composeui.GrapesTheme
 
 class ButtonsComposeFragment : Fragment() {
 
@@ -39,7 +40,7 @@ class ButtonsComposeFragment : Fragment() {
     ): View {
         return ComposeView(requireContext()).apply {
             setContent {
-                MaterialTheme {
+                GrapesTheme {
                     val scrollState = rememberScrollState()
                     Column(
                         modifier = Modifier
